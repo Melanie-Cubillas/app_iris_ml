@@ -37,6 +37,7 @@ try:
     print("Connection closed.")
 
 except Exception as e:
+    result = "Error de conexión"  # <--- AGREGA ESTA LÍNEA AQUÍ
     st.write(str(e))
 
 
